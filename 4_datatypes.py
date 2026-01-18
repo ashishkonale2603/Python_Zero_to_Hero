@@ -62,6 +62,7 @@
 #Integer(int)
 #They are real numbers without any decimal points.
 #Range: -∞ to +∞
+#Default Value: 0
 
 intVar=100 #Syntax
 print(intVar) #Output: 100
@@ -73,4 +74,22 @@ print(type(intVar)) #Output: <class 'int'>
 print(bool(intVar)) #Non-default Value so Output: True
 
 intVar=0
+print(bool(intVar)) #Default Value so Output: False
+
+
+#Float(float)
+#They are real numbers with decimal points.
+#Range: -∞ to +∞
+#Default Value: 0.0
+
+floatVar=100.0 #Syntax
+print(floatVar) #Output: 100.0
+
+print(float()) #Output: 0.0
+
+print(type(floatVar)) #Output: <class 'float'>
+
+print(bool(floatVar)) #Non-default Value so Output: True
+
+intVar=0.0
 print(bool(intVar)) #Default Value so Output: False
