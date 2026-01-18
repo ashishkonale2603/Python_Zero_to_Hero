@@ -55,3 +55,22 @@
                           >>False
         
 """
+
+
+#Single-value Datatype
+
+#Integer(int)
+#They are real numbers without any decimal points.
+#Range: -∞ to +∞
+
+intVar=100 #Syntax
+print(intVar) #Output: 100
+
+print(int()) #Output: 0
+
+print(type(intVar)) #Output: <class 'int'>
+
+print(bool(intVar)) #Non-default Value so Output: True
+
+intVar=0
+print(bool(intVar)) #Default Value so Output: False
