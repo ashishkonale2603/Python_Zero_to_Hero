@@ -100,7 +100,7 @@ print(bool(intVar)) #Default Value so Output: False
 #j and J are called as imaginary character.
 #a snd b are a real number which consist either integer or float.
 #The default value of complex number is 0j.
-#Ex.
+
 compNum=10j+11 #Syntax
 print(compNum)
 
@@ -114,3 +114,27 @@ print(bool(compNum)) #Non-default Value so Output: True
 
 compNum=0j
 print(bool(compNum)) #Non-default Value so Output: False
+
+
+#boolean
+#It consist of boolean values that is True and False.
+#True will be internally be considered as 1 and False will be internally be considered as 0.
+#Default value os boolean is False.
+
+#Where to use boolean datatype.
+#(1)It can be used to store value inside a variable.
+#(2)It can be used as a resultant for a given condition.
+
+boolNum=True
+print(boolNum) #Syntax
+
+print(id(boolNum)) #Output: 140704581798656
+
+print(bool()) #Output: False
+
+print(type(boolNum)) #Output: <class 'bool'>
+
+print(bool(boolNum)) #Non-default Value so Output: True
+
+boolNum=False
+print(bool(boolNum)) #Non-default Value so Output: False
