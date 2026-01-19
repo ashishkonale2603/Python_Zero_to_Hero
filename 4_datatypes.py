@@ -56,7 +56,6 @@
         
 """
 
-
 #Single-value Datatype
 
 #Integer(int)
@@ -93,3 +92,25 @@ print(bool(floatVar)) #Non-default Value so Output: True
 
 intVar=0.0
 print(bool(intVar)) #Default Value so Output: False
+
+
+#Complex(comp)
+#These number are the number having real part and imaginary part.
+#Syntax:   a+bj  or  a+bJ
+#j and J are called as imaginary character.
+#a snd b are a real number which consist either integer or float.
+#The default value of complex number is 0j.
+#Ex.
+compNum=10j+11 #Syntax
+print(compNum)
+
+print(id(compNum)) #Output: 2894473633136
+
+print(complex()) #Output: 0j
+
+print(type(compNum)) #Output: <class 'complex'>
+
+print(bool(compNum)) #Non-default Value so Output: True
+
+compNum=0j
+print(bool(compNum)) #Non-default Value so Output: False
