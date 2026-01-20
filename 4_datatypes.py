@@ -138,3 +138,19 @@ print(bool(boolNum)) #Non-default Value so Output: True
 
 boolNum=False
 print(bool(boolNum)) #Non-default Value so Output: False
+
+
+
+
+
+
+temp=[11,12,23,27,32,36]
+print(temp)
+temp.append(40)
+print(temp)
+temp.insert(0,13)
+print(temp)
+temp.pop()
+print(temp)
+temp.remove(13)
+print(temp)
