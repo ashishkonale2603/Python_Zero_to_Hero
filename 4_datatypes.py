@@ -279,3 +279,58 @@ print(bool(tup))   #Non-default Value so Output: True
 
 tup=()
 print(bool(tup))   #Default Value so Output: False
+
+#Set
+#Set is the unordered collection of homogenous or heterogenous values enclosed within curlt braces.
+#Syntax: variable={val1,val2,...,valn}
+#The default value of set is set().
+#Set will not support indexing.
+#Set will not allow duplicates.
+#It is a mutable type of collection.
+
+myset={5,4,3,1,2}   #Syntax
+print(myset)
+
+print(id(myset))   #Output: 2089716490400
+
+print(set())   #Output: set()
+
+print(type(myset))   #Output: <class 'set'>
+
+print(bool(myset))   #Non-default Value so Output: True
+
+myset={}
+print(bool(myset))   #Default Value so Output: False
+
+tom={27,91,55,100}
+print(tom)   #Syntax
+#Output: {91, 27, 100, 55}
+
+#adding data
+'''
+add()
+It is in-built function which is used to add the value at any random position in a given set.
+Syntax: variable.add(value)
+Ex.
+'''
+tom.add(45)
+print(tom)   #Output: {100, 27, 45, 55, 91}
+
+#removing data
+'''
+pop()
+It is in-built function which is used to remove the first value from set.
+Syntax: variable.pop()
+Ex.
+'''
+tom.pop()
+print(tom)   #Output: {27, 45, 55, 91}
+
+'''
+remove()
+It is in-built function which is used to remove any specified value from set.
+Syntax: variable.remove(value)
+Ex.
+'''
+tom.remove(91)
+print(tom)   #Output: {27, 45, 55}
