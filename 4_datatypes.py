@@ -137,10 +137,35 @@ print(type(boolNum)) #Output: <class 'bool'>
 print(bool(boolNum)) #Non-default Value so Output: True
 
 boolNum=False
-print(bool(boolNum)) #Non-default Value so Output: False
+print(bool(boolNum)) #Default Value so Output: False
 
 
+#String
+#String is collection of characters enclosed within single quote(''), double quote("") or triple
+# quote(''' ''').
+#Default value of String is ''.
+#We go for double quote("") when we have single quotes included within string.
+#When we want to store the data in the document form then go with triple quotes. So this string
+# is also called as 'Doc String'
+#To get the count of values inside your given string use 'length()'
+#    eg. a='Qspiders'
+#        >>len(a)
+#        >>8
 
+string='Qspiders'   #Syntax
+print(string)
+
+print(id(string))   #Output: 1828745103536
+
+default=str()
+print(default)   #Output: ''
+
+print(type(string))   #Output: <class 'str'>
+
+print(bool(string))   #Non-default Value so Output: True
+
+string=''
+print(bool(string))   #Default Value so Output: False
 
 
 
