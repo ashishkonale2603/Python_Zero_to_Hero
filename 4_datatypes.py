@@ -257,3 +257,25 @@ Ex.
 '''
 temp[2]=24
 print(temp)   #Output: [11, 12, 24, 27, 32, 36]
+
+
+#Tuple
+#Tuple is the collection of homogenous or heterogenous values enclosed within paranthesis.
+#Syntax:  var=(val1,val2,...,valn)
+#Default values of tuple is ().
+#It is a immutable type of collection.
+#It is also called as secured datatype.
+
+tup=(1,2,3,4,5)   #Syntax
+print(tup)
+
+print(id(tup))   #Output: 2168494787648
+
+print(tuple())   #Output: ()
+
+print(type(tup))   #Output: <class 'tuple'>
+
+print(bool(tup))   #Non-default Value so Output: True
+
+tup=()
+print(bool(tup))   #Default Value so Output: False
