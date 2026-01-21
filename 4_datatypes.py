@@ -188,14 +188,72 @@ string=''
 print(bool(string))   #Default Value so Output: False
 
 
+#List
+#List is an collection of homogenous or heterogenousvalues enclosed within square braces.
+#Syntax:   var_name=[val1,val2,val3,...,val4]
+#Default value of list is [].
+#List is a mutable type of collection so we can perform modification.
+
+temp=[1,2,3,4,5]   #Syntax
+print(temp)
+
+print(id(temp))   #Output: 2724270029120
+
+print(list())   #Output: []
+
+print(type(temp))   #Output: <class 'list'>
+
+print(bool(temp))   #Non-default Value so Output: True
+
+temp=[]
+print(bool(temp))   #Default Value so Output: False
+
 
 temp=[11,12,23,27,32,36]
-print(temp)
+print(temp)   #Output: [11, 12, 23, 27, 32, 36]
+
+#adding data
+'''
+append()
+-It is in-built function which is used to add the given value st the lost position in the list.
+-Syntax: variable.append(value)
+-Ex.
+'''
 temp.append(40)
-print(temp)
+print(temp)   #Output: [11, 12, 23, 27, 32, 36, 40]
+
+'''
+insert()
+-It is in-built function which is used to add the given value at the specified index.
+-Syntax: variable.insert(value)
+-Ex.
+'''
 temp.insert(0,13)
-print(temp)
+print(temp)   #Output: [13, 11, 12, 23, 27, 32, 36, 40]
+
+#removing data
+'''
+pop()
+-It is in-built function which is used to remove the last value from the given list.
+-Syntax: variable.pop()
+-Ex.
+'''
 temp.pop()
-print(temp)
+print(temp)   #Output: [13, 11, 12, 23, 27, 32, 36]
+
+'''
+remove()
+-It is in-built function which is used to remove the specified value from the collection.
+-Syntax: variable.remove(value)
+-Ex.
+'''
 temp.remove(13)
-print(temp)
+print(temp)   #Output: [11, 12, 23, 27, 32, 36]
+
+#replace data
+'''
+var[index]=new_value
+Ex.
+'''
+temp[2]=24
+print(temp)   #Output: [11, 12, 24, 27, 32, 36]
