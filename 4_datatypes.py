@@ -22,13 +22,14 @@
       |-Set(set)
       |-Dictionary(dict)
 
-      
-    Default Value:
-    Default values are the initial values that are internally considered False.
 
-    Non-default Values:
-    Non-default values are the values that are internally considered True.
-    All the values except Default Value are called as Non-default Values.
+    Default and Non-default Values: 
+        Default Value:
+        Default values are the initial values that are internally considered False.
+
+        Non-default Values:
+        Non-default values are the values that are internally considered True.
+        All the values except Default Value are called as Non-default Values.
 
     Important Functions:
         (1)datatypeOf()[int()]
@@ -53,6 +54,17 @@
                           >>True
                If a=0,    bool(a)
                           >>False
+
+    Indexing:
+        It is phenomenon or process of giving subaddress to the values present inside the collection.
+        (i) Positive Indexing
+            -It goes from left to right direction.
+            -It starts with 0 and ends with [len(variable)-1].
+
+        (ii)Negative Indexing
+            -It goes from right to left direction.
+            -It starts with -1 and ends with [-len(variable)].
+
         
 """
 
@@ -151,6 +163,7 @@ print(bool(boolNum)) #Default Value so Output: False
 #    eg. a='Qspiders'
 #        >>len(a)
 #        >>8
+#String is immutable datatype.
 
 string='Qspiders'   #Syntax
 print(string)
