@@ -65,6 +65,13 @@
             -It goes from right to left direction.
             -It starts with -1 and ends with [-len(variable)].
 
+    Mutable and Immutable Datatype:
+        Mutable Datatype
+        -The datatype in which we can perform modification(adding data, removing data or replacing data)
+         are called as mutable datatype.
+
+        Immutable Datatype
+        -The datatype in which we cannot perform modification are called as mutable datatype.
         
 """
 
