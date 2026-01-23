@@ -366,3 +366,37 @@ print(bool(mydict))   #Non-default Value so Output: True
 
 mydict={}
 print(bool(mydict))   #Default Value so Output: False
+
+
+mydict={'a':10,'b':20,'c':30}
+#accessing data
+'''
+Syntax: var[key]
+Ex.
+'''
+print(mydict['a'])   #Output: 10
+
+#replace data
+'''
+Syntax: var[key]=new_value
+Ex.
+'''
+mydict['b']=100
+print(mydict)   #Output: {'a': 10, 'b': 100, 'c': 30}
+
+#adding new pair
+'''
+Syntax: var['new_key']=new_value
+Ex.
+'''
+mydict['d']=40
+print(mydict)   #Output: {'a': 10, 'b': 100, 'c': 30, 'd': 40}
+
+#removing pair
+'''
+pop()
+Syntax: var.pop(key)
+Ex.
+'''
+mydict.pop('c')
+print(mydict)   #Output: {'a': 10, 'b': 100, 'd': 40}
