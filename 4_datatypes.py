@@ -280,6 +280,7 @@ print(bool(tup))   #Non-default Value so Output: True
 tup=()
 print(bool(tup))   #Default Value so Output: False
 
+
 #Set
 #Set is the unordered collection of homogenous or heterogenous values enclosed within curlt braces.
 #Syntax: variable={val1,val2,...,valn}
@@ -334,3 +335,12 @@ Ex.
 '''
 tom.remove(91)
 print(tom)   #Output: {27, 45, 55}
+
+
+#Dictionary
+#It is a collection of homogenous and heterogenous type of data which is in the form of keys and 
+# values enclosed within curly braces.
+#Syntax: var={'val1':val1,'val2':val2,...'valn':valn}
+#Duplicates are not allowed in the dictionary.
+#Indexes are not present in the dictionary.
+
