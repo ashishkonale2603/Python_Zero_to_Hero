@@ -343,4 +343,12 @@ print(tom)   #Output: {27, 45, 55}
 #Syntax: var={'val1':val1,'val2':val2,...'valn':valn}
 #Duplicates are not allowed in the dictionary.
 #Indexes are not present in the dictionary.
+'''
+Key:
+    Keys are the visible layer inside the dictionary.
+    Keys must be unique and immutable.
 
+Values:
+    Values can be anything.
+'''
+#Dictionary is a mutable type of collection with respect to values.
