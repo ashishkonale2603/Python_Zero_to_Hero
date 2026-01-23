@@ -400,3 +400,27 @@ Ex.
 '''
 mydict.pop('c')
 print(mydict)   #Output: {'a': 10, 'b': 100, 'd': 40}
+
+#items()
+'''
+It is a in-built function which is used to fetch out the pairs of values in a dictionary.
+Syntax: var.items()
+Ex.
+'''
+print(mydict.items())   #Output: dict_items([('a', 10), ('b', 100), ('d', 40)])
+
+#keys()
+'''
+It is a in-built function which is used to fetch out all the keys from the given dictionary collection.
+Syntax: var.keys()
+Ex.
+'''
+print(mydict.keys())   #Output: dict_keys(['a', 'b', 'd'])
+
+#values()
+'''
+It is a in-built function which is used to fetch out all the values from the given dictionary collection.
+Syntax: var.keys()
+Ex.
+'''
+print(mydict.values())   #Output: dict_values([10, 100, 40])
