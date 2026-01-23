@@ -352,3 +352,17 @@ Values:
     Values can be anything.
 '''
 #Dictionary is a mutable type of collection with respect to values.
+
+mydict={'a':10,'b':20,'c':30}   #Syntax
+print(mydict)   #Output: {'a': 10, 'b': 20, 'c': 30}
+
+print(id(mydict))   #Output: 2094843947008
+
+print(dict())   #Output: {}
+
+print(type(mydict))   #Output: <class 'dict'>
+
+print(bool(mydict))   #Non-default Value so Output: True
+
+mydict={}
+print(bool(mydict))   #Default Value so Output: False
