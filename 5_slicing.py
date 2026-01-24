@@ -21,3 +21,17 @@ Shortforms for using Slicing syntax:
     -To reverse the given collection we will use the
         Syntax: var[ : :-1]
 '''
+
+a='Python Programming Language'
+
+print(a[:7:1])
+print(a[7:14:1])
+print(a[11:15:1])
+print(a[:8:2])
+print(a[5:1:-1])
+
+print(a[:-21:1])
+print(a[-20:-13:1])
+print(a[-16:-12:1])
+print(a[:-22:2])
+print(a[-22:-26:-1])
