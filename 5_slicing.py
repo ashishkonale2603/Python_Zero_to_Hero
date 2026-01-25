@@ -21,7 +21,6 @@ Shortforms for using Slicing syntax:
     -To reverse the given collection we will use the
         Syntax: var[ : :-1]
 '''
-
 a='Python Programming Language'
 
 print(a[:7:1])
