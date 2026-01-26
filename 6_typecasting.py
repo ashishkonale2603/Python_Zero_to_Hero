@@ -79,3 +79,37 @@ print(b)
 
 #dictionary
 #b=dict(a)   Error
+
+
+#complex as source
+a=20+5j
+
+#integer
+#b=int(a)   Error
+
+#float
+#b=float(a)   Error
+
+#complex
+b=complex(a)
+print(b)
+
+#bool
+b=bool(a)
+print(b)
+
+#string
+b=str(a)
+print(b)
+
+#list
+#b=list(a)   Error
+
+#tuple
+#b=tuple(a)   Error
+
+#set
+#b=set(a)   Error
+
+#dictionary
+#b=dict(a)   Error
