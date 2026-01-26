@@ -149,3 +149,53 @@ print(b)
 
 #dictionary
 #b=dict(a)   Error
+
+
+#string as source
+a='30'
+
+#integer
+b=int(a)
+print(b)
+
+#float
+b=float(a)
+print(b)
+
+#complex
+b=complex(a)
+print(b)
+
+a='This is my sentence'
+
+#integer
+#b=int(a)   Error
+
+#float
+#b=float(a)   Error
+
+#complex
+#b=complex(a)   Error
+
+#bool
+b=bool(a)
+print(b)
+
+#string
+b=str(a)
+print(b)
+
+#list
+b=list(a)
+print(b)
+
+#tuple
+b=tuple(a)
+print(b)
+
+#set
+b=set(a)
+print(b)
+
+#dictionary
+#b=dict(a)   Error
