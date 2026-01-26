@@ -113,3 +113,39 @@ print(b)
 
 #dictionary
 #b=dict(a)   Error
+
+
+#bool as source
+a=True
+
+#integer
+b=int(a)
+print(b)
+
+#float
+b=float(a)
+print(b)
+
+#complex
+b=complex(a)
+print(b)
+
+#bool
+b=bool(a)
+print(b)
+
+#string
+b=str(a)
+print(b)
+
+#list
+#b=list(a)   Error
+
+#tuple
+#b=tuple(a)   Error
+
+#set
+#b=set(a)   Error
+
+#dictionary
+#b=dict(a)   Error
