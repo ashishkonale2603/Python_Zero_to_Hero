@@ -7,3 +7,39 @@ Typecasting
 source=5
 dest=float(source)
 print(dest)
+
+
+#integer as source
+a=10
+
+#integer
+b=int(a)
+print(b)
+
+#float
+b=float(a)
+print(b)
+
+#complex
+b=complex(a)
+print(b)
+
+#bool
+b=bool(a)
+print(b)
+
+#string
+b=str(a)
+print(b)
+
+#list
+#b=list(a)   Error
+
+#tuple
+#b=tuple(a)   Error
+
+#set
+#b=set(a)   Error
+
+#dictionary
+#b=dict(a)   Error
