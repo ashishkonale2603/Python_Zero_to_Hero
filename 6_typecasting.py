@@ -10,6 +10,7 @@ print(dest)
 
 
 #integer as source
+print('Integer:')
 a=10
 
 #integer
@@ -46,6 +47,7 @@ print(b)
 
 
 #float as source
+print('Float')
 a=15.0
 
 #integer
@@ -82,6 +84,7 @@ print(b)
 
 
 #complex as source
+print('Complex')
 a=20+5j
 
 #integer
@@ -116,6 +119,7 @@ print(b)
 
 
 #bool as source
+print('Boolean')
 a=True
 
 #integer
@@ -152,6 +156,7 @@ print(b)
 
 
 #string as source
+print('String')
 a='30'
 
 #integer
