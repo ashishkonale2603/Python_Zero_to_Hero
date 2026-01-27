@@ -204,3 +204,40 @@ print(b)
 
 #dictionary
 #b=dict(a)   Error
+
+
+#list as source
+print('List')
+a=[1,2,3,4]
+
+#integer
+#b=int(a)   Error
+
+#float
+#b=float(a)   Error
+
+#complex
+#b=complex(a)   Error
+
+#bool
+b=bool(a)
+print(b)
+
+#string
+b=str(a)
+print(b)
+
+#list
+b=list(a)
+print(b)
+
+#tuple
+b=tuple(a)
+print(b)
+
+#set
+b=set(a)
+print(b)
+
+#dictionary
+#b=dict(a)   Error
