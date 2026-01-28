@@ -32,3 +32,28 @@ print(b)
 a[2][1]=17
 print(a)
 print(b)
+
+
+'''
+Shallow Copy:
+It is the process of coping the content from one variable to another with different address.
+Syntax: dest_var = source_var.copy()
+
+Drawback:
+If the values from the nested layer is modified it will reflect in both the variation.
+
+Ex.
+'''
+a=[1,2,[3,4,7]]
+print(a)
+
+b=a.copy()
+print(b)
+
+a[1]=8
+print(a)
+print(b)
+
+a[2][1]=17
+print(a)
+print(b)
