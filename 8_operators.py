@@ -18,3 +18,30 @@ Operators:
     (f) Identity Operator
     (g) Membership Operator
 '''
+
+'''
+(a) Arithmatic Operators:
+    It is used to perform arithmatic operations on the given operands.
+    (i)Addition(+)
+    (ii)Substraction(-)
+    (iii)Multiplication(*)
+    (v)Division
+        1.True Division(/)
+        2.Floor Division(//)
+        3.Modulus(%)
+    (v)Power(**)
+'''
+
+'''
+    (i)Addition(+)
+    Incase of single value datatypes it will perform addition operation, whereas incase of multivalue datatype
+    it is going to perform concatination operation.
+    Syntax:  operand1 + operand2
+    Ex.
+'''
+print('Addition')
+print(11+9)
+print([11,12,13,14] + [15,16,17,18])
+print((10+11j) + (20+10j))
+
+#Addition will not support set and dictionary.
