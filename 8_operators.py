@@ -45,3 +45,17 @@ print([11,12,13,14] + [15,16,17,18])
 print((10+11j) + (20+10j))
 
 #Addition will not support set and dictionary.
+
+
+'''
+    (ii)Substraction(-)
+    It is used to find the difference between the operands.
+    Syntax:  operand1 - 
+    Ex.
+'''
+print('Substraction')
+print(10 - 9)
+print({11,12,13,14,15} - {14,15,16,17})
+print(True - False)
+
+#Substraction does not support any multivalue datatype except Set datatype.
