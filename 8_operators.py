@@ -50,7 +50,7 @@ print((10+11j) + (20+10j))
 '''
     (ii)Substraction(-)
     It is used to find the difference between the operands.
-    Syntax:  operand1 - 
+    Syntax:  operand1 - operand2
     Ex.
 '''
 print('Substraction')
@@ -59,3 +59,16 @@ print({11,12,13,14,15} - {14,15,16,17})
 print(True - False)
 
 #Substraction does not support any multivalue datatype except Set datatype.
+
+
+'''
+    (iii)Multiplication(*)
+    This operators is used to find the product of the operands.
+    Syntax:  operand1 * operand2    =>  (Single-value Datatype)
+             operand1 * N           =>  (Multi-value Datatype)
+    Ex.
+'''
+print('Multiplication')
+print(20 * 7)
+print([1,2,3,4] * 2)
+
