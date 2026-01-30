@@ -102,3 +102,12 @@ print('Floor Division')
 print(11 // 3)
 print(47 // 2)
 
+'''
+        3.Modulus(%)
+        It is used when we want to fetch the remainder part of the quotient.
+        Syntax:  operand % n
+        Ex.
+'''
+print('Modulus')
+print(11 % 3)
+print(47 % 2)
