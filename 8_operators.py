@@ -72,3 +72,12 @@ print('Multiplication')
 print(20 * 7)
 print([1,2,3,4] * 2)
 
+'''
+    (iv)Division
+    This operator is used to perform division operation for operands.
+    We have 3 types of division:
+    1. True Division(/)
+    2. Floor Division(//)
+    3. Modulus(%)
+'''
+print('Division')
