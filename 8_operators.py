@@ -72,6 +72,7 @@ print('Multiplication')
 print(20 * 7)
 print([1,2,3,4] * 2)
 
+
 '''
     (iv)Division
     This operator is used to perform division operation for operands.
@@ -81,3 +82,12 @@ print([1,2,3,4] * 2)
     3. Modulus(%)
 '''
 print('Division')
+'''
+        1.True Division(/)
+        It is used when we want to fetch complete quotient value(floating number as well).
+        Syntax:  operand / n
+        Ex.
+'''
+print('True Division')
+print(11 / 3)
+print(47 / 2)
