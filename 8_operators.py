@@ -91,3 +91,14 @@ print('Division')
 print('True Division')
 print(11 / 3)
 print(47 / 2)
+
+'''
+        2.Floor Division(//)
+        It is used to fetch only the integer part of the quotient.
+        Syntax:  operand // n
+        Ex.
+'''
+print('Floor Division')
+print(11 // 3)
+print(47 // 2)
+
