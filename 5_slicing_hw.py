@@ -17,3 +17,23 @@ print(str1[20:4:-1])
 #utsrqponmlkjihgf
 
 print()
+
+
+str3='datastructuresandalgorithms'
+
+print(str3[0:4:]+str3[16:3:-1]+str3[17::])
+#datadnaserutcurtsalgorithms
+
+print(str3[5:-9:1])
+#tructuresanda
+
+print(str3[::-4])
+#silaurt
+
+print(str3[0:3:1]+str3[-4:2:-1]+str3[24::])
+#dattirogladnaserutcurtsahms
+
+print()
+#
+
+print()
