@@ -97,3 +97,23 @@ print()
 #
 
 print()
+
+
+str7='objectorientedprogramming'
+
+print(str7[13:5:-1])
+#detneiro
+
+print(str7[-5:-21:-1])
+#margorpdetneirot
+
+print(str7[:5:]+str7[19:4:-1]+str7[20::])
+#objecargorpdetneirotmming
+
+print(str7[:9:-1])
+#gnimmargorpdetn
+
+print(str7[::3])
+#oeoeerrmg
+
+print()
