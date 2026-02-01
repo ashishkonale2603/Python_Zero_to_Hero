@@ -104,7 +104,7 @@ print(47 // 2)
 
 '''
         3.Modulus(%)
-        It is used when we want to fetch the remainder part of the quotient.
+        It is used when we want to fetch the remainder part of the quotient5_.
         Syntax:  operand % n
         Ex.
 '''
