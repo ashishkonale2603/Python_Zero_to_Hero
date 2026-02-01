@@ -37,3 +37,23 @@ print()
 #
 
 print()
+
+
+str4='artificialintelligence'
+
+print(str4[:10:]+str4[:9:-1])
+#artificialecnegilletni
+
+print()
+#
+
+print(str4[3::])
+#ificialintelligence
+
+print(str4[9::-1]+str4[10::])
+#laicifitraintelligence
+
+print(str4[::-2])
+#englenliiir
+
+print()
