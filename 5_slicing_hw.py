@@ -57,3 +57,23 @@ print(str4[::-2])
 #englenliiir
 
 print()
+
+
+str5='machinelearningmodels'
+
+print(str5[-7:-15:-1])
+#gninrael
+
+print(str5[:-15:-1])
+#sledomgninrael
+
+print(str5[-15:-4:])
+#elearningmo
+
+print()
+#
+
+print(str5[15::]+str5[7:15:]+str5[:7:])
+#modelslearningmachine
+
+print()
