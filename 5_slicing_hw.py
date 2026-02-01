@@ -77,3 +77,23 @@ print(str5[15::]+str5[7:15:]+str5[:7:])
 #modelslearningmachine
 
 print()
+
+
+str6='computernetworksandsecurity'
+
+print(str6[:8:]+str6[15:7:-1]+str6[16::])
+#computerskrowtenandsecurity
+
+print(str6[19::])
+#security
+
+print(str6[:4:]+str6[:3:-1])
+#compytirucesdnaskrowtenretu
+
+print()
+#
+
+print()
+#
+
+print()
