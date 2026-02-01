@@ -117,3 +117,24 @@ print(str7[::3])
 #oeoeerrmg
 
 print()
+
+
+str8='datascienceandanalytics'
+
+a=len(str8)//2
+print(str8[:a:]+str8[:a-1:-1])
+#datasciencescitylanadna
+
+print(str8[3:20:2])
+#acecadnlt
+
+print(str8[-20::-1]+str8[-19:-9:]+str8[:-10:-1])
+#atadscienceandscitylana
+
+print(str8[:a:])
+#datascience
+
+print(str8[10::-1]+str8[11:14:]+str8[:-10:-1])
+#ecneicsatadandscitylana
+
+print()
