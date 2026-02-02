@@ -135,3 +135,12 @@ print(5**5)
     (v)Greater than equal to(>=)
     (vi)Less then equal to(<=)
 '''
+
+'''
+    (i)Equal to(==)
+    This operator is used to check weather the given values are equal or not.
+    Syntax:   operand1 == operand2
+    Ex.
+'''
+print(10 == 10.0)
+print(17 == 17.9)
