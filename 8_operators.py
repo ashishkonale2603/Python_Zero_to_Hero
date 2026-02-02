@@ -143,4 +143,14 @@ print(5**5)
     Ex.
 '''
 print(10 == 10.0)
-print(17 == 17.9)
+print(17 == 179)
+
+
+'''
+    (ii)Not equal to(!=)
+    This operator is used to check weather the two given values are equal or not.
+    Syntax:  operand1 != operand2
+    Ex:
+'''
+print(10 != 10.0)
+print(17 != 179)
