@@ -121,3 +121,17 @@ print(47 % 2)
 print(4**3)
 print(16**2)
 print(5**5)
+
+
+'''
+(b)Relational Operator
+    Relational operators are used to check relation between the provided operand.
+
+    We have 6 types of Relational Operator:
+    (i)Equal to(==)
+    (ii)Not equal to(!=)
+    (iii)Grater than(>)
+    (iv)Less than(<)
+    (v)Greater than equal to(>=)
+    (vi)Less then equal to(<=)
+'''
