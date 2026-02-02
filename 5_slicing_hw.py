@@ -138,3 +138,24 @@ print(str8[10::-1]+str8[11:14:]+str8[:-10:-1])
 #ecneicsatadandscitylana
 
 print()
+
+
+str9='fullstackdevelopment'
+
+print(str9[:4:]+str9[8:3:-1]+str9[9::])
+#fullkcatsdevelopment
+
+print(str9[:-9:-1])
+#tnempole
+
+print(str9[5::-1]+str9[6:14:]+str9[:-7:-1])
+#tsllufackdeveltnempo
+
+print(str9[::-2])
+#teplvdctlu
+
+a=len(str9)//2
+print(str9[a::]+str9[:a:])
+#evelopmentfullstackd
+
+print()
