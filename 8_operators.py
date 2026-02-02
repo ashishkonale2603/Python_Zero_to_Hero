@@ -112,3 +112,12 @@ print('Modulus')
 print(11 % 3)
 print(47 % 2)
 
+'''
+    (v)Power(**)
+    It is used when we want to multiple the operand with itself with specified n number of times.
+    Syntax:   operand ** n
+    Ex.
+'''
+print(4**3)
+print(16**2)
+print(5**5)
