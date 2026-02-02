@@ -159,3 +159,23 @@ print(str9[a::]+str9[:a:])
 #evelopmentfullstackd
 
 print()
+
+
+str10='cybersecurityengineering'
+
+print(str10[:5:]+str10[12:4:-1]+str10[13::])
+#cyberytirucesengineering
+
+print(str10[:4:-1])
+#gnireenigneytiruces
+
+print(str10[:1:]+str10[22:0:-1]+str10[-1::])
+#cnireenigneytirucesrebyg
+
+print(str10[::2])
+print(str10[::-2])
+#cbreuiyniern
+#giengetrcsey
+
+print()
+#
