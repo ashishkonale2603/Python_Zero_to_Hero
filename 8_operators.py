@@ -154,3 +154,15 @@ print(17 == 179)
 '''
 print(10 != 10.0)
 print(17 != 179)
+
+
+'''
+    (iii)Greater than(>)
+    This operator is used to check weather the operand1 is greater than operand2 or not.
+    Syntax:  operand1 > operand2
+    Ex:
+'''
+print(16 > 179)
+print(19 > 18)
+
+
