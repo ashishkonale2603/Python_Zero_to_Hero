@@ -210,18 +210,59 @@ print(12 <= 12)
 
 '''
     (i)Logical and(and)
-    Both inputs are ture then only it will return true,
+    Both inputs are true then only it will return true,
     if either one input is false then it will return false.
     Syntax:  operand1 and operand2
     Truth Table:
                 |--------------------------------|
                 |       Input         |  Output  |
-                |--------------------------------|
+                |---------------------|          |
                 |  Input1  |  Input2  |    0     |
                 |--------------------------------|
                 |    0     |    0     |    0     |
-                |    0     |    0     |    0     |
-                |    0     |    0     |    0     |
-                |    0     |    0     |    0     |
+                |    0     |    1     |    0     |
+                |    1     |    0     |    0     |
+                |    1     |    1     |    1     |
                 |--------------------------------|
+
+    Conditions:
+    1.if operand1 == False
+        output == operand1
+    2.if operand1 == True
+        output == operand2
+
+    Ex.
 '''
+print(11 and 0)
+print(11 and 10)
+print(0 and 10)
+
+
+'''
+    (ii)Logical or(or)
+    Both inputs are false then only it will return false,
+    if either one input is true then it will return true.
+    Syntax:  operand1 or operand2
+    Truth Table:
+                |--------------------------------|
+                |       Input         |  Output  |
+                |---------------------|          |
+                |  Input1  |  Input2  |          |
+                |--------------------------------|
+                |    0     |    0     |    0     |
+                |    0     |    1     |    1     |
+                |    1     |    0     |    1     |
+                |    1     |    1     |    1     |
+                |--------------------------------|
+
+    Conditions:
+    1.if operand1 == False
+        output == operand2
+    2.if operand1 == True
+        output == operand1
+
+    Ex.
+'''
+print(11 or 0)
+print(11 or 10)
+print(0 or 10)
