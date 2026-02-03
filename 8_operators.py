@@ -187,3 +187,14 @@ print(17 <= 12)
 print(17 >= 17)
 
 
+'''
+    (vi)Less than equal to(<=)
+    This operator is used to check weather the operand1 is lesser than or equal to operand2 or not.
+    Syntax:  operand1 <= operand2
+    Ex:
+'''
+print(91 <= 93)
+print(94 <= 80)
+print(12 <= 12)
+
+
