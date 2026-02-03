@@ -166,3 +166,13 @@ print(16 > 179)
 print(19 > 18)
 
 
+'''
+    (iv)Less than(<)
+    This operator is used to check weather the operand1 is lesser than operand2 or not.
+    Syntax:  operand1 < operand2
+    Ex:
+'''
+print(16 < 179)
+print(19 < 18)
+
+
