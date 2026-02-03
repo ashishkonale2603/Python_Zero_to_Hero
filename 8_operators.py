@@ -176,3 +176,14 @@ print(16 < 179)
 print(19 < 18)
 
 
+'''
+    (v)Greater than egual to(>=)
+    This operator is used to check weather the operand1 is greater than or equal to operand2 or not.
+    Syntax:  operand1 >= operand2
+    Ex:
+'''
+print(17 >= 18)
+print(17 <= 12)
+print(17 >= 17)
+
+
