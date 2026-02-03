@@ -208,3 +208,20 @@ print(12 <= 12)
     (iii)Logical not(not)
 '''
 
+'''
+    (i)Logical and(and)
+    Both inputs are ture then only it will return true,
+    if either one input is false then it will return false.
+    Syntax:  operand1 and operand2
+    Truth Table:
+                |--------------------------------|
+                |       Input         |  Output  |
+                |--------------------------------|
+                |  Input1  |  Input2  |    0     |
+                |--------------------------------|
+                |    0     |    0     |    0     |
+                |    0     |    0     |    0     |
+                |    0     |    0     |    0     |
+                |    0     |    0     |    0     |
+                |--------------------------------|
+'''
