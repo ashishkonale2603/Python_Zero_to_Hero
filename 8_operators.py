@@ -198,3 +198,13 @@ print(94 <= 80)
 print(12 <= 12)
 
 
+'''
+(c)Logical Operator
+    Logical Operator are used to perform logical operations on the given operands.
+
+    There are 3 types of logical operation:
+    (i)Logical and(and)
+    (ii)Logical or(or)
+    (iii)Logical not(not)
+'''
+
