@@ -266,3 +266,28 @@ print(0 and 10)
 print(11 or 0)
 print(11 or 10)
 print(0 or 10)
+
+
+'''
+    (iii)Logical not(not)
+    It is used to print reverse or opposite.
+    Syntax:  not(operand)
+    Truth Table:
+                |------------------|
+                |  Input  | Output |
+                |------------------|
+                |    0    |    1   |
+                |    1    |    0   |
+                |------------------|
+
+    Conditions:
+    1.if operand1 == True
+        output == False
+    2.if operand1 == False
+        output == True
+    
+    Ex.
+'''
+print("Logical not example:")
+print(not(0))
+print(not(10))
