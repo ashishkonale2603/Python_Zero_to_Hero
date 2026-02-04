@@ -291,3 +291,17 @@ print(0 or 10)
 print("Logical not example:")
 print(not(0))
 print(not(10))
+
+
+'''
+(d)Bitwise Operator
+    This operator are useful to perform bitwise operations on the given values.
+
+    We have 6 types of bitwise operators:
+    (i)Bitwise and(&)
+    (ii)Bitwise or(|)
+    (iii)Bitwise not(~)
+    (iv)Bitwise XOR(^)
+    (v)Bitwise left-shift(<<)
+    (vi)Bitwise right-shift(>>)
+'''
