@@ -339,3 +339,20 @@ print(7 & 10)
 '''
 print("Bitwise or example:")
 print(7 | 10)
+
+
+'''
+    (iii)Bitwise XOR(^)
+    This operator is used to convert integer to binary and then perform bitwise XOR operation on it.
+    Syntax:  operand1 ^ operand2
+    Ex.
+        7 ^ 10
+
+        8  4  2  1
+        0  1  1  1  =>  7
+        1  0  1  0  =>  10
+       ------------
+        1  1  0  1  =>  13
+'''
+print("Bitwise XOR example:")
+print(7 ^ 10)
