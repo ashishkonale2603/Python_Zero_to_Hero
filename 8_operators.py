@@ -356,3 +356,24 @@ print(7 | 10)
 '''
 print("Bitwise XOR example:")
 print(7 ^ 10)
+
+
+'''
+    (iv)Bitwise not(~)
+    By providing negation to the given value and by adding 1 it will work.
+    It is used to perform bitwise not operation.
+    Syntax:  -(operand + 1)
+    Ex.
+            ~(10)
+        =>    -(10+1)
+        =>    -(11)
+        =>    -11
+
+            ~(-10)
+        =>    -(-10+1)
+        =>    -(-9)
+        =>    -9
+'''
+print("Bitwise not example:")
+print(~(10))
+print(~(-10))
