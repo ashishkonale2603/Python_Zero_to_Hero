@@ -305,3 +305,19 @@ print(not(10))
     (v)Bitwise left-shift(<<)
     (vi)Bitwise right-shift(>>)
 '''
+
+'''
+    (i)Bitwise and(&)
+    This operator is used to convert integer to binary and then perform bitwise and operation on it.
+    Syntax:  operand1 & operand2
+    Ex.
+        7 & 10
+
+        8  4  2  1
+        0  1  1  1  =>  7
+        1  0  1  0  =>  10
+       ------------
+        0  0  1  0  =>  2
+'''
+print("Bitwise and example:")
+print(7 & 10)
