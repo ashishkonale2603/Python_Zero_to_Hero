@@ -406,3 +406,20 @@ print(12 << 2)
 print("Bitwise right-shift")
 print(12 >> 2)
 
+
+'''
+(e)Assignment Operator(=)
+    This operator is used to assign or store the value in the given variable.
+    The symbol of assignment operator is '='.
+    Ex.
+        a=10
+
+
+        Argumented assignment operator:
+        This operator are used to modify the values of a given variable and by performing arithmatic or relational operations on it.
+        (+=, -=, *=, /=, //=, %=)
+        Ex.
+            a=10         a=20
+            a+=10        a-=10
+            >>20         >>10
+'''
