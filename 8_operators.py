@@ -423,3 +423,15 @@ print(12 >> 2)
             a+=10        a-=10
             >>20         >>10
 '''
+
+
+'''
+(f)Identity Operator
+    This operators are used to check whether the given value are pointing to the same memory location or not.
+
+    We have two types of identity operator:
+    (i) is
+    (ii)is not
+'''
+
+
