@@ -446,3 +446,13 @@ print(11 is 11)
 print(11 is 11.0)
 
 
+'''
+    (ii)is not
+    This operator is used to check whether the provided value is pointing towards same memory location or not.
+    Syntax:  operand1 is not operand2
+    Ex.
+'''
+print("is not")
+print(26 is not 26)
+print(18 is not 18.0)
+print(26 is not 18)
