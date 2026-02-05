@@ -392,3 +392,17 @@ print(~(-10))
 print("Bitwise left-shift")
 print(12 << 2)
 
+
+'''
+    (vi)Bitwise right-shift(>>)
+    It is used to convert integers to binary and then shift values to right side for specific n number of times.
+    Syntax:  operand >> n
+    Ex.    12 >> 2
+            8   4   2   1
+            1   1   0   0
+                1   1   0   0
+                    1   1   0   0  => 3
+'''
+print("Bitwise right-shift")
+print(12 >> 2)
+
