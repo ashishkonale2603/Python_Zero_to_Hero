@@ -435,3 +435,14 @@ print(12 >> 2)
 '''
 
 
+'''
+    (i)is
+    This operator is used to check whether the provided value is pointing towards same memory location or not.
+    Syntax:  operand1 is operand2
+    Ex.
+'''
+print("is")
+print(11 is 11)
+print(11 is 11.0)
+
+
