@@ -377,3 +377,18 @@ print(7 ^ 10)
 print("Bitwise not example:")
 print(~(10))
 print(~(-10))
+
+
+'''
+    (v)Bitwise left-shift(<<)
+    It is used to convert integers to binary and then shift values to left side for specific n number of times.
+    Syntax:  operand << n
+    Ex.    12 << 2
+            32   16   8   4   2   1
+                      1   1   0   0
+                  1   1   0   0   0
+             1    1   0   0   0   0  => 48
+'''
+print("Bitwise left-shift")
+print(12 << 2)
+
