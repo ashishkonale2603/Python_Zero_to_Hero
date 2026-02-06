@@ -207,6 +207,8 @@ print(12 <= 12)
     (ii)Logical or(or)
     (iii)Logical not(not)
 '''
+print('Logical Operator')
+
 
 '''
     (i)Logical and(and)
@@ -305,6 +307,7 @@ print(not(10))
     (v)Bitwise left-shift(<<)
     (vi)Bitwise right-shift(>>)
 '''
+print('Bitwise Operator')
 
 
 '''
@@ -423,6 +426,7 @@ print(12 >> 2)
             a+=10        a-=10
             >>20         >>10
 '''
+print('Assesment Operator')
 
 
 '''
@@ -433,6 +437,7 @@ print(12 >> 2)
     (i) is
     (ii)is not
 '''
+print('Identity Operator')
 
 
 '''
@@ -456,3 +461,16 @@ print("is not")
 print(26 is not 26)
 print(18 is not 18.0)
 print(26 is not 18)
+
+
+'''
+(g)Membership Operator
+    It is a type of operator used to check whether a given value is present inside a collection or not.
+
+    We have two types of membership operators:
+    (i)in
+    (ii)not in
+'''
+print('Membership Operator')
+
+
