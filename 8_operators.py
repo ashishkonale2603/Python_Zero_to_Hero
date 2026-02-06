@@ -474,3 +474,15 @@ print(26 is not 18)
 print('Membership Operator')
 
 
+'''
+    (i)in
+    It is used to check whether the given value is present inside collection or not.
+
+    Syntax:  value in collection
+    Ex.
+'''
+print('in')
+print(1.0 in [1,2,3,4,5])
+print(32 in [1,2,3,4,5])
+
+
