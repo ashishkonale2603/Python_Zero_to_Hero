@@ -486,3 +486,13 @@ print(1.0 in [1,2,3,4,5])
 print(32 in [1,2,3,4,5])
 
 
+'''
+    (ii)not in
+    This is used to check whether the given value is present inside collection or not.
+
+    Syntax:  value not in collection
+    Ex.
+'''
+print('not in')
+print(23 not in [11,22,12,21.3,2.2])
+print(61 not in [11,61,12,30])
