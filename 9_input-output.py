@@ -38,3 +38,37 @@ Input:
         ----------------------------------------------------------------------------------------------------------------------
 ''' 
 
+'''
+Output:
+    
+    print()
+    It is an in-built function which is used to give output to user.
+
+    It has two attributes:
+    (i)separator(sep)
+    (ii)end
+    
+    print statement accepts multiple values.
+
+
+    (i)separator(sep)
+    This operator is used to separator multiple values inside a print statement.
+    Default value of separator is space ' '.
+    We can modify the value of separator.
+    Syntax:  sep = new_value
+    Ex.  sep = '***'
+
+    (ii)end
+    This attribute is used to end multiple print statements.
+    The default value of end is '\n'.
+    We can modify the value of end attribute.
+    Syntax:  end = new_value
+    Ex.  end = '***'
+
+    Example:
+'''
+print('Output')
+print('I am Ashish','I live in Pune')
+print('I love to eat')
+print('I am Ashish','I live in Pune',sep='-',end='***')
+print('I love to eat')
