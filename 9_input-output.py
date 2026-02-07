@@ -2,7 +2,6 @@
 #Input/Output
 '''
 Input:
-
     The statements which are used to take data in a form of input from user are called as input statement.
     We use input in-built function to take the data from the user.
     It is a in-built function which is used to take values from the user to make the code dynamic.
