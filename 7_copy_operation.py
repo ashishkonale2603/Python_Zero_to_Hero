@@ -68,7 +68,6 @@ Syntax: import copy
 
 Drawback:
 If the values from the nested layer is modified it will reflect in both the variation.
-
 Ex.
 '''
 a=[1,2,[3,4,7]]
