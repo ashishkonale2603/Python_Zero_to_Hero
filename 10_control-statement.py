@@ -14,6 +14,5 @@
         |-Simple if                                         |-while
         |-if else                                           |
         |-elif                                              |-for
-        |-Nested if
-        
+        |-Nested if   
 '''
