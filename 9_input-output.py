@@ -65,6 +65,7 @@ Output:
     Ex.  end = '***'
 
     Example:
+    
 '''
 print('Output')
 print('I am Ashish','I live in Pune')
