@@ -6,3 +6,57 @@ Looping Statement
     (i)while loop
     (ii)for loop
 '''
+
+'''
+(i)while loop
+    It is a type of looping statement which is used to perform same task repeatatively unless and until the given condition becomes False.
+    In while loop, initialization and updation is mandatory.
+    Synatx:
+            initialization          ->starting point
+            while condition:        ->ending point
+                statement block
+                updation            ->incremental/decremental
+
+    Flowchart:
+                            |
+                      initialization
+                            |
+            --------------while -----<------
+            |            condition         |
+            |               |              |
+            | False         |True          |
+            |         Statement block      ^
+            |               |              |
+            |           Updation----->-----|
+            |               |
+
+    Ex.
+'''
+# #(1)
+# i=0
+# while i<5:
+#     print('python')
+#     i+=1
+
+# #(2)
+# n=int(input('Enter the value:'))
+# i=1
+# while i<n:
+#     print(i*n)
+#     i+=1
+
+# #(3)
+# n=int(input('Enter the value:'))
+# i=1
+# while i<10:
+#     print(i*n)
+#     i+=1
+
+# #(4)
+# n=int(input('Enter the value:'))
+# i=1
+# store=0
+# while i<=n:
+#     store=store+i
+#     i+=1
+# print(store)
