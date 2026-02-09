@@ -114,7 +114,7 @@ Conditional Statements
                     |True                        |                               |
                     |                            |                               |
              True Statement Block      True Statement Block            False Statement Block
-                    |                            |
+                    |                            |                               |
     Ex.
 '''
 # a=(input("Enter the char:"))
@@ -126,3 +126,49 @@ Conditional Statements
 #     print("Digit")
 # else:
 #     print("Special Symbol")
+
+
+'''
+(4)Nested if
+    When we have one if condition written inside another if condition, we call it as nested if.
+    Syntax:
+            if condition:
+                if condition:
+                    True Statement Block
+                else:
+                    False Statement Block 2
+            else:
+                False Statement Block 1
+
+    Flowchart:
+                    |
+                    |
+                    if _________________________ if ____________ _ _ _ __________
+                   cond   True                  cond               n             |
+                    |                            |                               |
+                    |                            |                               |
+                    |False                       |False                          |True
+                    |                            |                               |
+            False Statement Block      False Statement Block            True Statement Block
+                    |                            |                               |              
+    Ex.     
+'''
+# a=input('Enter the Char:')
+# if 'A' <= a <= 'Z' or 'a' <= a <= 'z':
+#     if a in 'AEIOUaeiou':
+#         print('Vowel')
+#     else:
+#         print('Consonent')
+# else:
+#     print('Not a character')
+
+# a=input('Enter the Username:')
+# if a=='ashish23':
+#     b=input('Enter the password:')
+#     if b=='password':
+#         print('Login Sucessful')
+#         print('Welcome to Instagram')
+#     else:
+#         print('Invalid Password')
+# else:
+#     print('Invalid Username')
