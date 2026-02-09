@@ -50,7 +50,6 @@ Conditional Statements
                 False Statement Block
 
     Flowchart:
-    Flowchart:
                     |
                     | 
                    if  _____________________________
@@ -89,3 +88,41 @@ Conditional Statements
 #     print('No middle value')
 # else:
 #     print('Middle value')
+
+
+'''
+(3)elif
+    It is a type of a control statement which is used to provide out when we have multiple condition to check with and multiple statement blocks to be executed.
+    Syntax:
+            if condition:
+                True Statement Block
+            elif condition:
+                True Statement Block
+            
+            else:
+                False Statement Block
+
+            (Else block is optional)
+
+    Flowchart:
+                    |
+                    |
+                    if _________________________elif____________ _ _ _ __________
+                   cond   False                 cond    False      n             |
+                    |                            |                               |
+                    |                            |                               |
+                    |True                        |                               |
+                    |                            |                               |
+             True Statement Block      True Statement Block            False Statement Block
+                    |                            |
+    Ex.
+'''
+# a=(input("Enter the char:"))
+# if 'a' <= a <= 'z':
+#     print("Lower Case")
+# elif 'A' <= a <= 'Z':
+#     print("Upper Case")
+# elif '0' <= a <= '9':
+#     print("Digit")
+# else:
+#     print("Special Symbol")
