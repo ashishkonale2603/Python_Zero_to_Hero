@@ -13,14 +13,14 @@ Conditional Statements
                 True Statement Block
 
     Flowchart:
-                                |
-                                | 
-                    ___________ if
-                    |          cond
-                    |           |
-                    |           |
-                    |    True Statement Block
-                    |           |
+                    |
+                    | 
+                   if  ________________
+                   cond                |
+                    |                  |
+                    |                  |
+             True Statement Block      |
+                    |                  |
 
     Ex.
 '''
@@ -41,5 +41,51 @@ Conditional Statements
 
 
 '''
+(2)if else
+    It is a type of conditional statement where we will be having one condition to check with and 2 statement block to be executed.
+    Syntax:
+            if condition:
+                True Statement Block
+            else:
+                False Statement Block
 
+    Flowchart:
+    Flowchart:
+                    |
+                    | 
+                   if  _____________________________
+                   cond         False               |
+                    |                               |
+                    |True                           |
+                    |                               |
+             True Statement Block         False Statement Block
+                    |                               |
+    Ex.
 '''
+# #(1)
+# a=eval(input('enter the values:'))
+# if a in [str,tuple]:
+#     print("Immutable")
+# else:
+#     print("Mutable")
+
+# #(2)
+# a=input("Enter tha char:")
+# if '0' <= a <= '9':
+#     print('Present')
+# else:
+#     print('Not Present')
+
+# #(3)
+# a=input("Enter tha char:")
+# if ('a'<= a <= 'z') or ('A' <= a <= 'Z') or ('0'<= a <= '9'):
+#     print('Not special Symbol')
+# else:
+#     print('Special Symbol')
+
+# # (4)
+# a=eval(input('enter the values:'))
+# if len(a)%2==0:
+#     print('No middle value')
+# else:
+#     print('Middle value')
