@@ -7,6 +7,7 @@ Looping Statement
     (ii)for loop
 '''
 
+
 '''
 (i)while loop
     It is a type of looping statement which is used to perform same task repeatatively unless and until the given condition becomes False.
