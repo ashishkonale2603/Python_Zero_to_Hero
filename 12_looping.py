@@ -60,4 +60,3 @@ Looping Statement
 #     store=store+i
 #     i+=1
 # print(store)
-
