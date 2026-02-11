@@ -68,6 +68,7 @@ Conditional Statements
 # else:
 #     print("Mutable")
 
+
 # #(2)
 # a=input("Enter tha char:")
 # if '0' <= a <= '9':
