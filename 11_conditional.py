@@ -89,7 +89,6 @@ Conditional Statements
 # else:
 #     print('Middle value')
 
-
 '''
 (3)elif
     It is a type of a control statement which is used to provide out when we have multiple condition to check with and multiple statement blocks to be executed.
