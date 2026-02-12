@@ -22,7 +22,6 @@ Shortforms for using Slicing syntax:
         Syntax: var[ : :-1]
 '''
 a='Python Programming Language'
-
 print(a[:7:1])
 print(a[7:14:1])
 print(a[11:15:1])
