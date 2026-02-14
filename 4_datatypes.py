@@ -72,7 +72,6 @@
 
         Immutable Datatype
         -The datatype in which we cannot perform modification are called as mutable datatype.
-        
 """
 
 
