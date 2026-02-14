@@ -281,6 +281,7 @@ tup=()
 print(bool(tup))   #Default Value so Output: False
 
 
+
 #Set
 #Set is the unordered collection of homogenous or heterogenous values enclosed within curlt braces.
 #Syntax: variable={val1,val2,...,valn}
