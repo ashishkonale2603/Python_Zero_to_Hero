@@ -2,7 +2,7 @@
     Datatypes are used to specify the type and size of data that is to be stored in the variable.
 
     Types of Dattypes:
-
+    
     Datatypes
     |
     |-Single-value Datatype(Individual Datatype)
@@ -72,7 +72,6 @@
 
         Immutable Datatype
         -The datatype in which we cannot perform modification are called as mutable datatype.
-        
 """
 
 
