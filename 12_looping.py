@@ -75,3 +75,15 @@ Ans.
     We can traverse through a list string or tuple by using while loop.
     But to traverse through set and dictionary while loop will not work so we will go for for loop.
 '''
+
+'''
+range()
+    It is used to create sequence of numbers with in the given limit.
+    Syntax:
+            var.range(SI,EI,Updation)
+    Ex.
+        a.range(1,10+1,1)
+        range(1,11,1)
+        range(1,11)
+'''
+
