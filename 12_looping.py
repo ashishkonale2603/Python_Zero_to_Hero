@@ -89,6 +89,18 @@ range()
     If the starting index is equal to 0 and updation is equal to 1 then we can skip writing it.
     range() will not have it's own proper structure but we can provide an artificial structure but we can provide an artifical structure by using typecasting.
     Ex.
-        list(range(1,11))
 '''
 print(list(range(1,11)))
+
+
+'''
+    Syntax for for loop:
+        for var in collection:
+            Statement Block
+
+        where,
+            var is the looping variable which follows identifer rule
+            collection can be collection datatypes
+
+    In for loop the number of iterations will be exactly equal to the number of values present inside the collection(length of collection).
+'''
