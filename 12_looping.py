@@ -60,3 +60,12 @@ Looping Statement
 #     store=store+i
 #     i+=1
 # print(store)
+
+
+'''
+(ii)for loop
+    for loop is called as self-iterative loop.
+    Incase of while loop, initialization or updation are mandaetory but here in for loop intialization or updation are
+    not mandetory, that is why, we call it as self-iterative loop.
+    The loop is initialized and updated automatically.
+'''
