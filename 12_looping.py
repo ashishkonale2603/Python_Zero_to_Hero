@@ -69,3 +69,9 @@ Looping Statement
     not mandetory, that is why, we call it as self-iterative loop.
     The loop is initialized and updated automatically.
 '''
+'''
+Q.  Why to use for loop when we have while loop?
+Ans.
+    We can traverse through a list string or tuple by using while loop.
+    But to traverse through set and dictionary while loop will not work so we will go for for loop.
+'''
