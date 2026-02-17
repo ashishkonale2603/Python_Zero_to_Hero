@@ -145,3 +145,17 @@ print(list(range(1,11)))
 #       if i%2==0:
 #              store.append(i)
 # print(store)
+
+'''
+Nested for loop:
+    -When we have one for loop written inside another for loop we call it as nested for loop.
+    -We can write programs by using nested while loop still we go for nested for loop because in the case of while loop
+     each and every time we have to initialize and update it.
+    -If we miss the initialization or updation one single time it might result to cause an error or an infinite loop.
+    -Nested for is use to traverse to value for more than one collection simultaniously and to perform required operation on it.
+
+    -Syntax:
+            for i in collection:
+                for j in collection:
+                    Statement Block
+'''
