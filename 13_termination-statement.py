@@ -32,3 +32,15 @@ Ex.
 
 O/P:    1,2,4,5
 '''
+
+'''
+(iii)pass
+It is used when a statement is required syntactically but no action is to be taken.
+Ex.
+    for i in range(1,6):
+        if i==3:
+            pass
+        print(i)
+
+O/P:    1,2,3,4,5
+'''
