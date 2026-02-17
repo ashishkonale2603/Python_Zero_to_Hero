@@ -103,4 +103,12 @@ print(list(range(1,11)))
             collection can be collection datatypes
 
     In for loop the number of iterations will be exactly equal to the number of values present inside the collection(length of collection).
+
+    Flowchart:
+                                |
+            ------>------ for variable ----->------
+            |             in collection            |until all values from
+            ^modify             |                  |collection has been iterated
+            |values             |                  |
+            |            Statement block      
 '''
