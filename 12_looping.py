@@ -110,5 +110,38 @@ print(list(range(1,11)))
             |             in collection            |until all values from
             ^modify             |                  |collection has been iterated
             |values             |                  |
-            |            Statement block      
+            |            Statement block    
+
+    Ex.  
 '''
+# #(1)
+# a='sam'
+# count=0
+# for i in a:
+#     count+=1
+# print(count)
+
+# #(2)
+# a=eval(input("Enter list: "))
+# store=[]
+# for i in a:
+#     if type(i)== int:
+#          store.append(i)
+# print(store)
+
+# #(3)
+# #to find the length oh homogenous tuple
+# count=0
+# a=eval(input("Enter tuple: "))
+# for i in a:
+#     count+=1
+# print(count)
+
+# #(4)
+# a=eval(input("Enter list: "))
+# store=[]
+# for i in a:
+#   if type(i)==int:
+#       if i%2==0:
+#              store.append(i)
+# print(store)
