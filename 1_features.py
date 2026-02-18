@@ -1,7 +1,6 @@
 """
     Python
 
-
     Python is high-level programming language which is used to build software application.
     It was invented by a Dutch Programmer namely Guido van Rossum in the year 1991.
     It's name was inspired from a British Comedy show "Monty Python's Flying Circus".
