@@ -37,6 +37,7 @@
 
     (8) Multi Paradigm Language
         Python supports multiple ways/approaches to write or solve a single problem.
+        
 """
 
 a, b= 1,2
