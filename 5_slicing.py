@@ -10,7 +10,6 @@ Slicing
 
 
 
-
     
 Shortforms for using Slicing syntax:
     -If Starting Index is the first value we can skip writing it.
