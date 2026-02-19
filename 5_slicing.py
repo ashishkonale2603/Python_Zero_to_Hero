@@ -9,7 +9,6 @@ Slicing
     Slicing can be done with only those datatypes which support indexing.
 
 
-
     
 Shortforms for using Slicing syntax:
     -If Starting Index is the first value we can skip writing it.
