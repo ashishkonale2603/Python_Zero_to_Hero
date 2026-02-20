@@ -4,7 +4,6 @@
     Control Statement are used to control the flow of execution of the given program.
 
     It is further divided into two parts:
-    
 
                                 Control Statement
                                         |                       l                   
