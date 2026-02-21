@@ -29,5 +29,12 @@ Function:
     We can use dir(str).
     Ex.
         lower(), upper(), islower(), isupper(), split(), strip(), capitalise()
-        
+
+    (iii)Functions on List
+    The functions which supports list datatypes are called as Functions on list.
+    To check all the in-built functions which support list datatypes we can use dir(list).
+    Ex.
+        insert(), append(), pop(), remove(), extend(), clear(), sort()
+
+    
 '''
