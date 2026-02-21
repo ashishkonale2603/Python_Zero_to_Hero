@@ -24,5 +24,10 @@ Function:
     Ex.
         print(), eval() ,id() ,bool() ,type(), len(), input()
 
-    
+    (ii)Functions on String
+    The in-built functions which supports string datatypes are called as functions on string to check with all the in-functions which supports string datatypes.
+    We can use dir(str).
+    Ex.
+        lower(), upper(), islower(), isupper(), split(), strip(), capitalise()
+        
 '''
