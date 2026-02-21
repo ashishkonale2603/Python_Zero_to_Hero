@@ -18,3 +18,11 @@ Function:
     (v)Functions on Set
     (vi)Functions on Dictionary
 '''
+'''
+    (i)Utility Functions
+    The in-built functions which can be used on more then 1 datatype are called as Utility functions.
+    Ex.
+        print(), eval() ,id() ,bool() ,type(), len(), input()
+
+    
+'''
