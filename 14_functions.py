@@ -32,9 +32,13 @@ Function:
 
     (iii)Functions on List
     The functions which supports list datatypes are called as Functions on list.
-    To check all the in-built functions which support list datatypes we can use dir(list).
+    To check with all the in-built functions which support list datatypes we can use dir(list).
     Ex.
         insert(), append(), pop(), remove(), extend(), clear(), sort()
 
-    
+    (iv)Functions on Tuple
+    The in-built functions which supports tuple datatypes are called as Functions on tuple.
+    To check with all the in-built functions which support tuple datatypes we can use dir(tuple).
+    Ex.
+        count(), index()
 '''
