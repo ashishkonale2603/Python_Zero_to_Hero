@@ -47,6 +47,7 @@ Function:
     To check with all the in-built functions which support set datatypes we can use dir(set).
     Ex.
         union(), issubset(), issuperset(), add(), pop()
+        
 
     (vi)Functions on dictionary
     The in-built functions which supports dictionary datatypes are called as Functions on dictionary.
