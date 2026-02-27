@@ -9,7 +9,6 @@ Copy Operation:
     (3) Deep Copy
 '''
 
-
 '''
 General Copy:
 It is the process of coping the content from one variable to another with same address.
