@@ -43,6 +43,7 @@ Conditional Statements
 '''
 (2)if else
     It is a type of conditional statement where we will be having one condition to check with and 2 statement block to be executed.
+    
     Syntax:
             if condition:
                 True Statement Block
