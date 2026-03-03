@@ -7,7 +7,6 @@ Conditional Statements
 (1)Simple if
     It is a type of conditional statement where we have one condition to be satisfied and one statement block to be executed.
     It the condition becomes it will be executed True statement block or else it will ignore the true statement block.
-
     Syntax:
             if condition:
                 True Statement Block
