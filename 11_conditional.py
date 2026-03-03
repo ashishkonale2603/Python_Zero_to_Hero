@@ -2,7 +2,6 @@
 Conditional Statements
     These are the statements which are used to control the flow of execution of a given program.
 '''
-
 '''
 (1)Simple if
     It is a type of conditional statement where we have one condition to be satisfied and one statement block to be executed.
