@@ -1,3 +1,4 @@
+
 str1 = "abcdefghijklmnopqrstuvwxyz"
 
 print(str1[2::3])
