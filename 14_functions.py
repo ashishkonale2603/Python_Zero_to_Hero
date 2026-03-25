@@ -41,4 +41,17 @@ Function:
     To check with all the in-built functions which support tuple datatypes we can use dir(tuple).
     Ex.
         count(), index()
+        
+    (v)Functions on Set
+    The in-built functions which supports set datatypes are called as Functions on set.
+    To check with all the in-built functions which support set datatypes we can use dir(set).
+    Ex.
+        union(), issubset(), issuperset(), add(), pop()
+
+    (iv)Functions on Dictionary
+    The in-built functions which supports dictionary datatypes are called as Functions on dictionary.
+    To check with all the in-built functions which support dictionary datatypes we can use dir(dict).
+    Ex.
+        keys(), values(), items(), popitem()
+        
 '''
