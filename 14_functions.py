@@ -55,3 +55,26 @@ Function:
         keys(), values(), items(), popitem()
         
 '''
+
+'''
+(2)User-defined Function
+    The function which are declred or defined by the user are called as user defined functions.
+
+        def
+        It is a keyboard which is used to define or declare the function.
+
+        return
+        It is a keyword which returns values or result directly to the function calling statement.
+        return can return multiple values 
+            Syntax: 
+                    return value
+
+    The user-defined function are classified into 4 types:
+    (i)Function without argument and without return
+    (ii)Function without argument and with return
+    (iii)Function with argument and without return
+    (iv)Function with argument and with return
+    
+'''
+
+
