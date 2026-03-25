@@ -74,7 +74,112 @@ Function:
     (ii)Function without argument and with return
     (iii)Function with argument and without return
     (iv)Function with argument and with return
-    
+
 '''
 
+'''
+    (i)Function without argument and without return
+    The function which do not have arguments and do not have return keyword are called as Function without argument and without return.
+    Syntax:
+            def fname():
+                statement block
+            fname()
+
+    Ex. 
+        def add():
+            a=10
+            b=20
+            print(a+b)
+        add()
+
+    Memory allocation:
+
+        _______________________________________________
+        |     main space      |     method space      |
+        |---------------------------------------------|
+        |                     |               0x11    |
+        |      add()          |   ----------------    |
+        |    ----------       |   |   a=10       |    |
+        |    |  0x11  |<------|---|   b=20       |    |
+        |    ----------       |   |   print(a+b) |    |
+        |                     |   ----------------    |
+        |_____________________|_______________________|
+
+    (ii)Function with argument and without return
+    The function which have arguments and do not have return keyword are called as Function with argument and without return.
+    Syntax:
+            def fname(a,b):
+                statement block
+            fname()
+
+    Ex. 
+        def add(a,b):
+            print(a+b)
+        add(10,20)
+
+    Memory allocation:
+
+        _______________________________________________
+        |     main space      |     method space      |
+        |---------------------------------------------|
+        |                     |                       |
+        |    add(10,20)       |             0x11      | 
+        |    ----------       |   ----------------    |
+        |    |  0x11  |<------|---|   print(a+b) |    |
+        |    ----------       |   ----------------    |
+        |_____________________|_______________________|
+
+    (iii)Function without argument and with return
+    The function which do not have arguments but has return keyword are called as Function without argument and with return.
+    Syntax:
+            def fname():
+                statement block
+                return val
+            fname()
+
+    Ex. 
+        def add():
+            a=10
+            b=20
+            return a+b
+        add()
+
+    Memory allocation:
+
+        _______________________________________________
+        |     main space      |     method space      |
+        |---------------------------------------------|
+        |                     |               0x11    |
+        |      add()          |   ----------------    |
+        |    ----------       |   |   a=10       |    |
+        |    |  0x11  |<------|---|   b=20       |    |
+        |    ----------       |   |   return(a+b)|    |
+        |                     |   ----------------    |
+        |_____________________|_______________________|
+
+    (iv)Function with argument and with return
+    The functions having arguments and returns some values are called as Function with argument and with return.
+    Syntax:
+            def fname(args):
+                statement block
+                return val
+            fname(val)
+
+    Ex. 
+        def add(a,b):
+            return a+b
+        print(add(10,20))
+
+    Memory allocation:
+
+        _______________________________________________
+        |     main space      |     method space      |
+        |---------------------------------------------|
+        |                     |                       |
+        |     add(a,b)        |               0x11    |
+        |    ----------       |   ----------------    |
+        |    |  0x11  |<------|---|   return a+b |    |
+        |    ----------       |   ----------------    |
+        |_____________________|_______________________|
+'''
 
