@@ -14,5 +14,16 @@ There are two types of packing:
 '''
 
 '''
+(1)Single Pack
+    The process of combining the single values in the form of tuple is called as Single Packing.
+    As it combines the values in the form of tuple it is alse called tuple packing.
+    Syntax:
+            def fname(*args):
+                statement block
+            fanme(val1,val2,...,valn)
 
+    Ex.
+            def single(*a):
+                print(a)
+            single(1,2,3,4,5,6,7,8,9,10)
 '''
