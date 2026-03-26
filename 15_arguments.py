@@ -32,6 +32,12 @@ We have four types of arguments:
         def fname(name,roll=1):
             print(name,roll)
         fname('ashish',27)
+
+(4)Variable Length Argument
+    This argument are used to work when we want to use both positional argument and keyboard argument in single function.
+    We have two types of variable length arguments i.e. Packing and Unpacking.
+    Here, the length of values may vary so we call them as variable length arguments.
+    
 '''
 
 
