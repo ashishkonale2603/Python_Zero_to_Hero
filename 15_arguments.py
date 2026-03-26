@@ -19,6 +19,19 @@ We have four types of arguments:
             print(name,roll)
         fname('ashish',27)
 
+(2)Keyword Argument
+    This is the argument where we pass the value to the variable in the form key and value pair in the function calling statement.
+    Ex.
+        def fname(name,roll):
+            print(name,roll)
+        fname(roll=27,name='ashish')
+
+(3)Default Argument
+    This is the type of arguments where we pass the default value to a variable in the function declaration and it should be the last argument.
+    Ex.
+        def fname(name,roll=1):
+            print(name,roll)
+        fname('ashish',27)
 '''
 
 
