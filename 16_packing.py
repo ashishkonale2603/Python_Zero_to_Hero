@@ -53,3 +53,8 @@ Q.  Differentiate between single pack and double pack.
     |Symbol is *                          |Symbol is **                          |
     |_____________________________________|______________________________________|
 '''
+
+'''
+Unpacking:
+    It is the  process of separating given collection in the form of single value is called as Unpacking.
+'''
