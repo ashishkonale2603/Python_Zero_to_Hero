@@ -40,3 +40,16 @@ There are two types of packing:
             print(a,b)
         store(a=20,b=10)
 '''
+
+'''
+Q.  Differentiate between single pack and double pack.
+    _____________________________________________________________________________
+    |            single pack              |           double pack                |
+    |----------------------------------------------------------------------------|
+    |It collects positional arguments.    |It collects keyword arguments.        |
+    |                                     |                                      |
+    |Stores values in tuples.             |Stores values in dictionary.          |
+    |                                     |                                      |
+    |Symbol is *                          |Symbol is **                          |
+    |_____________________________________|______________________________________|
+'''
