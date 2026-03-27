@@ -26,4 +26,17 @@ There are two types of packing:
             def single(*a):
                 print(a)
             single(1,2,3,4,5,6,7,8,9,10)
+
+(2)Double Pack
+    it is the phenomenon of grouping key value pairs of the form of dictionary.
+    As it combines the data in the form of dictionary, it is also called as dictionary packing.
+    Syntax:
+            def fname(**args):
+                statement block
+            fname(key=value)
+
+    Ex.
+        def store(**a,**b):
+            print(a,b)
+        store(a=20,b=10)
 '''
