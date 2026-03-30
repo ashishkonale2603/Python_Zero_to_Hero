@@ -44,3 +44,26 @@ def ex1():
     ex2()
     print(a)
 ex1()
+
+'''
+Difference between global and local variables.
+    _______________________________________________________________________________
+    |          Global Variable             |       Local Variable                 |    
+    |-----------------------------------------------------------------------------|
+    |-Declared outside the function.       |-Declared inside the function.        |
+    |                                      |                                      |
+    |-Scope is from start of file to end   |-Scope is from start of function to   |
+    |   of the file.                       |    end of the function.              |
+    |                                      |                                      |
+    |-We can access and modify it in file. |-We can access and modify it in nested|
+    |                                      |    function but not in outside file. |
+    |                                      |                                      |
+    |-We can access but not modify         |-We can access but not modify in      |
+    |   in function.                       |    nested functio.                   |
+    |                                      |                                      |
+    |-To modify in function use 'global'.  |-To modify in function use 'nonlocal'.|
+    |_____________________________________________________________________________|
+
+
+
+'''
