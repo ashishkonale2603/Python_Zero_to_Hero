@@ -42,3 +42,15 @@ class Company:
 emp1=Company()
 emp2=Company()
 print(Company.company_name,Company.company_loc,Company.company_email)
+
+'''
+Modification of properties:
+    If we modify a property using class name modification will happen in object as well as class memory.
+
+    If we modify a property using object name modification will happen in particular object memory. 
+
+    Syntax:
+        class_name.property_name=value
+        object_name.property_name=value
+'''
+
