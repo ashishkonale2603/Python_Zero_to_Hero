@@ -81,3 +81,17 @@ Types of states:
 
 Ex.
 '''
+class Collage:
+    clg_name='Wadia'
+    location='Pune'
+    email='wadia@gmail.com'
+stud1=Collage()
+stud2=Collage()
+
+stud1.student_name='ashish'
+stud1.phoneno='9284204650'
+stud1.id='27'
+
+stud2.student_name='vishal'
+stud2.phoneno='9657155339'
+stud2.id='01'
