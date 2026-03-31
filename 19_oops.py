@@ -35,13 +35,13 @@ Accessing Properties:
 
     Ex.
 '''
-class Company:
-    company_name='TestYantra'
-    company_loc='Pune'
-    company_email='company@testyantra.com'
-emp1=Company()
-emp2=Company()
-print(Company.company_name,Company.company_loc,Company.company_email)
+# class Company:
+#     company_name='TestYantra'
+#     company_loc='Pune'
+#     company_email='company@testyantra.com'
+# emp1=Company()
+# emp2=Company()
+# print(Company.company_name,Company.company_loc,Company.company_email)
 
 '''
 Modification of properties:
@@ -53,4 +53,16 @@ Modification of properties:
         class_name.property_name=value
         object_name.property_name=value
 '''
+class Company:
+    company_name='TestYantra'
+    company_loc='Pune'
+    company_email='company@testyantra.com'
+emp1=Company()
+emp2=Company()
 
+Company.company_loc='Mumbai'
+emp1.company_loc='Hyderabad'
+
+print(Company.company_name,Company.company_loc,Company.company_email)
+print(emp1.company_name,emp1.company_loc,emp1.company_email)
+print(emp2.company_name,emp2.company_loc,emp2.company_email)
