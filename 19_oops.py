@@ -25,3 +25,20 @@ class Car:
     fuel_type='Electric'
 car1=Car()
 car2=Car()
+
+'''
+Accessing Properties:
+
+    Syntax:
+        class_name.property_name
+        object_name.property_name
+
+    Ex.
+'''
+class Company:
+    company_name='TestYantra'
+    company_loc='Pune'
+    company_email='company@testyantra.com'
+emp1=Company()
+emp2=Company()
+print(Company.company_name,Company.company_loc,Company.company_email)
