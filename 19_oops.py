@@ -66,3 +66,18 @@ emp1.company_loc='Hyderabad'
 print(Company.company_name,Company.company_loc,Company.company_email)
 print(emp1.company_name,emp1.company_loc,emp1.company_email)
 print(emp2.company_name,emp2.company_loc,emp2.company_email)
+
+'''
+Types of states:
+(i)Class Method
+    These are the members which are commen for all the object.
+    Ex. Consider a class Bank
+        Members such as bank_name,location,email,ifsc_code,etc are class members.
+
+(ii)Object Method
+    These are the members which are different for all the object.
+    Ex. Consider a class Bank
+        Members such as customer_name,phone_no,email,account_number,aadhar_num,PAN,etc are object members.
+
+Ex.
+'''
